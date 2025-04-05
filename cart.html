@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кошик</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+        <p>Піца онлайн</p>
+        <ul class="header-menu">
+            <li><a href="./index.html" class="header-menu-item">Головна</a></li>
+            <li><a href="" class="header-menu-item">Меню</a></li>
+            <li><a href="" class="header-menu-item">Контакти</a></li>
+        </ul>
+
+        <a href="" class="shop-container">
+            <p class="shop">Кошик</p>
+            <div class="cart-count">0</div>
+        </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="cart-items"></div>
+        <div class="total-block">
+        <button id="clear-cart">Очистити кошик</button>
+        <p>Загальна сума: <span id="total-price">0</span> грн</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Контакти: info@pizza-online.ua</p>
+    </footer>
+    <script src="./cart.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
